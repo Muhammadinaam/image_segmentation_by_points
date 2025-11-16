@@ -1,0 +1,20 @@
+EXPERIMENT REPORT
+============================================================
+
+Experiment: Pretrained vs. Non-Pretrained
+  - pretrained: True
+    * Training Completed. Time Taken: 177.54s, Validation Loss: 0.0503
+  - pretrained: False
+    * Training Completed. Time Taken: 158.37s, Validation Loss: 0.0611
+
+Experiment: Learning Rate Effect
+  - learning_rate: 0.01
+    * Training Completed. Time Taken: 156.70s, Validation Loss: 0.0590
+  - learning_rate: 0.001
+    * Training Completed. Time Taken: 163.74s, Validation Loss: 0.0430
+
+Experiment: Epoch Count
+  - epochs: 5
+    * Training Completed. Time Taken: 164.91s, Validation Loss: 0.0551
+  - epochs: 10
+    * Training Completed. Time Taken: 492.34s, Validation Loss: 0.0471
